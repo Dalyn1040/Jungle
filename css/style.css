@@ -1,0 +1,187 @@
+*{padding: 0;
+margin: 0;
+}
+
+font{
+    font-family: 'Abril Fatface';
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background: url(../img/chuttersnap-9G1kXjqOq4U-unsplash\(1\).jpg) center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: black;
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat";
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between 1px;
+    
+}
+header nav ul{
+    list-style: none;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 200px;
+    font-family:"Abril Fatface" ;
+    color: white;
+    text-transform: capitalize;
+}
+header nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Monserrat";
+
+}
+.bloc1 div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bloc1 {
+    padding-top: 100px ;
+    padding-bottom: 100px;
+   
+}
+.bloc1 h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    color: #555;
+}
+.bloc1 h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 400px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    justify-content: space-between 1px;
+    color: #546b22;
+}
+.bloc1 p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    color: #555;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.bloc1 div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bloc1 div img{
+    border-radius: 50%;
+    margin: 25px;
+    height: 100px;
+}
+.bloc2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #EDE6DD;
+
+}
+.bloc2 div{
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+.bloc2 div:first-of-type{
+    width: 40%;
+}
+
+.bloc2 div:last-of-type{
+    width: 40%;
+    margin-left: 40px;
+}
+    
+.bloc2 div img{
+    width: 100%;
+    padding-right: 30px;
+    border: darkblue;
+    
+     
+}
+
+.bloc2 div h2{
+    font-family: "Abrilfatface";
+    font-size: 50px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bloc2 div>h3{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #546B22;
+    justify-content: space-between 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.bloc2 div p{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    padding-top: 170px;
+    padding-bottom: 170px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    flex-direction: column;
+
+}
+footer h2{
+    font-family: "Abrilfatface";
+    font-size: 50px;
+    color: #555;
+   
+}
+   
+
+footer h3{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #546B22;
+    text-transform: uppercase;
+}
+
+/************* RESPONSIVE************/
+
+@media screen and (max-width:1000px){
+    header h1{color: red;
+    }
+
+    }
+
